@@ -1,0 +1,4 @@
+http://example.com/2022/06/20/My-Gallery/
+http://example.com/2022/06/20/My-new-Post/
+http://example.com/2022/06/20/hello-world/
+http://example.com/
