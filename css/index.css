@@ -11,6 +11,33 @@ body {
 main {
   display: block
 }
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  /* background-color: rgba(0, 0, 0, .5);s */
+  overflow: hidden;
+}
+
+.content {
+  height: 100%;
+}
+
+#rainBox {
+  height: 100%;
+}
+
+.rain {
+  position: absolute;
+  width: 1px;
+  height: 30px;
+  background: linear-gradient(rgba(106, 14, 255, 0.315), rgba(6, 173, 214, 0.66));
+}
 
 h1 {
   font-size: 2em;
