@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-06-21T05:56:35.343Z</updated>
+  <updated>2022-06-21T06:38:01.583Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,14 +21,14 @@
     <link href="http://example.com/2022/06/21/%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%EF%BC%81/"/>
     <id>http://example.com/2022/06/21/%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%EF%BC%81/</id>
     <published>2022-06-21T02:46:36.198Z</published>
-    <updated>2022-06-21T05:56:35.343Z</updated>
+    <updated>2022-06-21T06:38:01.583Z</updated>
     
-    <content type="html"><![CDATA[<p>欢迎你的到来！</p>]]></content>
+    <content type="html"><![CDATA[<p>这是我的第一个个人博客，Hexo+GitHub 制作。 </p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;欢迎你的到来！&lt;/p&gt;
+    <summary type="html">&lt;p&gt;这是我的第一个个人博客，Hexo+GitHub 制作。 &lt;/p&gt;
 </summary>
       
     

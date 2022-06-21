@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+            /* background-color: rgba(0, 0, 0, .5);s */
+            overflow: hidden;
+        }
+
+        .content {
+            height: 100%;
+        }
+
+        #rainBox {
+            height: 100%;
+        }
+
+        .rain {
+            position: absolute;
+            width: 1px;
+            height: 30px;
+            background: linear-gradient(rgba(106, 14, 255, 0.315), rgba(6, 173, 214, 0.66));
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <div id="rainBox"></div>
+    </div>
+    <script>
+        const box = document.getElementById('rainBox');
+        let boxHeight = box.clientHeight;
+        let boxWidth = box.clientWidth;
+        window.onresize = function () {
+            boxHeight = box.clientHeight;
+            boxWidth = box.clientWidth;
+        }
+        function rainDot() {
+            let rain = document.createElement('div');
+            rain.classList.add('rain');
+            rain.style.top = 0;
+            rain.style.left = `${Math.random() * boxWidth}px`;
+            rain.style.opacity = Math.random();
+            box.appendChild(rain);
+
+            let gap = 20;
+            const loop = setInterval(() => {
+                if (parseInt(rain.style.top) > boxHeight) {
+                    clearInterval(loop);
+                    box.removeChild(rain)
+                }
+                gap++
+                rain.style.top = `${parseInt(rain.style.top) + gap}px`;
+            }, 20)
+        }
+        setInterval(() => {
+            rainDot();
+        }, 1)
+    </script>
+</body>
+
+</html>
