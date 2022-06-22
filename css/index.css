@@ -11,7 +11,20 @@ body {
 main {
   display: block
 }
+.content {
+  height: 100%;
+}
 
+#rainBox {
+  height: 100%;
+}
+
+.rain {
+  position: absolute;
+  width: 1px;
+  height: 30px;
+  background: linear-gradient(rgba(255, 255, 255, .3), rgba(255, 255, 255, .66));
+}
 h1 {
   font-size: 2em;
   margin: .67em 0
