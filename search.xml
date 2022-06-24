@@ -2,17 +2,20 @@
 <search>
   <entry>
     <title>我的简历</title>
-    <url>/2021/09/25/%E6%88%91%E7%9A%84%E7%AE%80%E5%8E%86/</url>
-    <content><![CDATA[<p>#<strong>自我介绍</strong></p>
+    <url>/2022/06/24/%E6%88%91%E7%9A%84%E7%AE%80%E5%8E%86/</url>
+    <content><![CDATA[<ul>
+<li>我的简历</li>
+</ul>
+<hr>
+<p>#<strong>自我介绍</strong></p>
 <hr>
 <p>姓名：<strong>王连杰</strong>     </p>
 <p> 出生日期：<strong>1999.07.08</strong>   </p>
 <p>   年龄：<strong>22</strong></p>
 <p>   性别：<strong>男</strong></p>
 <p>学历：<strong>全日制本科</strong></p>
-<hr>
-<p>#<strong>专业技能</strong></p>
-<p>自学前端，熟悉Html5+Css3+Javascript、Vue框架、Element-ui框架的使用，根据项目练习写过Vue+element-ui的后台管理系统，使用Hexo+github搭建个人博客：<a href="http://a182644.github.io/">阿杰の博客</a>, 个人感觉有上手项目的能力。</p>
+<h2 id><a href="#" class="headerlink" title></a><img src="/.com//index.jpg" alt="这是图片"></h2><p>#<strong>专业技能</strong></p>
+<p>自学前端，熟悉Html5+Css3+Javascript、Vue框架、Element-ui、layui框架的使用，根据项目练习写过Vue+element-ui的后台管理系统，使用Hexo+github搭建个人博客：<a href="http://a182644.github.io/">阿杰の博客</a>, 个人感觉有上手项目的能力。</p>
 <hr>
 <p>#<strong>工作经历</strong></p>
 <p>2021.06-07：</p>
@@ -22,13 +25,10 @@
 <hr>
 <p>#<strong>学校经历</strong></p>
 <p>2017-2021：</p>
-<p>潍坊科技学院——–计算机科学与技术专业</p>
+<p>潍坊科技学院——–计算机科学与技术专业 &#x2F;&#x2F;&#x2F;&#x2F;网页设计大赛二等奖、计算机操作员四级证书。</p>
 <hr>
 <p>#<strong>自我评价</strong></p>
-<p>前端的学习还处于初级阶段，上手的智慧营收系统为前后端不分离项目，编写的时候感觉有点吃力（因为前后端都要写），个人学习能力比较强，希望<strong>贵公司</strong>能给我一个学习的机会！</p>
+<p>由于毕业考编，导致学习时间短，前端的学习还处于初级阶段，上手的智慧营收系统为前后端不分离项目，编写的时候感觉有点吃力（因为前后端都要写），个人学习能力比较强，希望<strong>贵公司</strong>能给我一个学习的机会！</p>
 ]]></content>
-      <tags>
-        <tag>我的简历</tag>
-      </tags>
   </entry>
 </search>
