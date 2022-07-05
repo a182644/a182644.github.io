@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-06-24T09:32:17.784Z</updated>
+  <updated>2022-07-05T07:42:27.092Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>数组备忘</title>
+    <link href="http://example.com/2022/06/24/arr/"/>
+    <id>http://example.com/2022/06/24/arr/</id>
+    <published>2022-06-24T00:56:58.000Z</published>
+    <updated>2022-07-05T07:42:27.092Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="数组知识点备忘"><a href="#数组知识点备忘" class="headerlink" title="数组知识点备忘"></a>数组知识点备忘</h2><p>数组方法备忘单：</p><p>添加删除元素：</p><p>push(…items) —— 向尾端添加元素，</p><p>pop() —— 从尾端提取一个元素，</p><p>shift() —— 从首端提取一个元素，</p><p>unshift(…items) —— 向首端添加元素，</p><p>splice(pos, deleteCount, …items) —— 从 pos 开始删除 deleteCount 个元素，并插入 items。</p><p>slice(start, end) —— 创建一个新数组，将从索引 start 到索引 end（但不包括 end）的元素复制进去。</p><p>concat(…items) —— 返回一个新数组：复制当前数组的所有元素，并向其中添加 items。如果 items 中的任意一项是一个数组，那么就取其元素。</p><p>搜索元素：</p><p>indexOflastIndexOf(item, pos) —— 从索引 pos 开始搜索 item，搜索到则返回该项的索引，否则返回 -1。</p><p>includes(value) —— 如果数组有 value，则返回 true，否则返回 false。</p><p>findfilter(func) —— 通过 func 过滤元素，返回使 func 返回 true 的第一个值所有值。</p><p>findIndex 和 find 类似，但返回索引而不是值。</p><p>遍历元素：</p><p>forEach(func) —— 对每个元素都调用 func，不返回任何内容。</p><p>转换数组：</p><p>map(func) —— 根据对每个元素调用 func 的结果创建一个新数组。</p><p>sort(func) —— 对数组进行原位（in-place）排序，然后返回它。</p><p>reverse() —— 原位（in-place）反转数组，然后返回它。</p><p>splitjoin —— 将字符串转换为数组并返回。</p><p>reducereduceRight(func, initial) —— 通过对每个元素调用 func 计算数组上的单个值，并在调用之间传递中间结果。</p><p>其他：</p><p>Array.isArray(arr) 检查 arr 是否是一个数组。</p><p>请注意，sort，reverse 和 splice 方法修改的是数组本身。<br>这些是最常用的方法，它们覆盖 99％ 的用例。但是还有其他几个：</p><p>arr.some(fn)arr.every(fn) 检查数组。</p><p>与 map 类似，对数组的每个元素调用函数 fn。如果任何所有结果为 true，则返回 true，否则返回 false。<br>这两个方法的行为类似于  和 &amp;&amp; 运算符：如果 fn 返回一个真值，arr.some() 立即返回 true 并停止迭代其余数组项；如果 fn 返回一个假值，arr.every() 立即返回 false 并停止对其余数组项的迭代。<br>我们可以使用 every 来比较数组：<br>function arraysEqual(arr1, arr2) {<br>  return arr1.length &#x3D;&#x3D;&#x3D; arr2.length &amp;&amp; arr1.every((value, index) &#x3D; value &#x3D;&#x3D;&#x3D; arr2[index]);<br>}</p><p>alert( arraysEqual([1, 2], [1, 2]));  true</p><p>arr.fill(value, start, end) —— 从索引 start 到 end，用重复的 value 填充数组。</p><p>arr.copyWithin(target, start, end) —— 将从位置 start 到 end 的所有元素复制到 自身 的 target 位置（覆盖现有元素）。</p><p>arr.flat(depth)arr.flatMap(fn) 从多维数组创建一个新的扁平数组。</p><p>Array.of(element0[, element1[, …[, elementN]]]) 基于可变数量的参数创建一个新的 Array 实例，而不需要考虑参数的数量或类型。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;数组知识点备忘&quot;&gt;&lt;a href=&quot;#数组知识点备忘&quot; class=&quot;headerlink&quot; title=&quot;数组知识点备忘&quot;&gt;&lt;/a&gt;数组知识点备忘&lt;/h2&gt;&lt;p&gt;数组方法备忘单：&lt;/p&gt;
+&lt;p&gt;添加删除元素：&lt;/p&gt;
+&lt;p&gt;push(…items) —— 向尾端</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>我的简历</title>
@@ -36,28 +58,6 @@
 &lt;hr&gt;
 &lt;p&gt;姓名：&lt;strong&gt;王连杰&lt;/strong&gt;     &lt;/p&gt;
 &lt;p&gt; 出生日期：&lt;strong&gt;1999.07.08&lt;/strong&gt;   </summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>数组备忘</title>
-    <link href="http://example.com/2022/06/24/arr/"/>
-    <id>http://example.com/2022/06/24/arr/</id>
-    <published>2022-06-24T00:56:58.000Z</published>
-    <updated>2022-07-05T07:42:27.092Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="数组知识点备忘"><a href="#数组知识点备忘" class="headerlink" title="数组知识点备忘"></a>数组知识点备忘</h2><p>数组方法备忘单：</p><p>添加删除元素：</p><p>push(…items) —— 向尾端添加元素，</p><p>pop() —— 从尾端提取一个元素，</p><p>shift() —— 从首端提取一个元素，</p><p>unshift(…items) —— 向首端添加元素，</p><p>splice(pos, deleteCount, …items) —— 从 pos 开始删除 deleteCount 个元素，并插入 items。</p><p>slice(start, end) —— 创建一个新数组，将从索引 start 到索引 end（但不包括 end）的元素复制进去。</p><p>concat(…items) —— 返回一个新数组：复制当前数组的所有元素，并向其中添加 items。如果 items 中的任意一项是一个数组，那么就取其元素。</p><p>搜索元素：</p><p>indexOflastIndexOf(item, pos) —— 从索引 pos 开始搜索 item，搜索到则返回该项的索引，否则返回 -1。</p><p>includes(value) —— 如果数组有 value，则返回 true，否则返回 false。</p><p>findfilter(func) —— 通过 func 过滤元素，返回使 func 返回 true 的第一个值所有值。</p><p>findIndex 和 find 类似，但返回索引而不是值。</p><p>遍历元素：</p><p>forEach(func) —— 对每个元素都调用 func，不返回任何内容。</p><p>转换数组：</p><p>map(func) —— 根据对每个元素调用 func 的结果创建一个新数组。</p><p>sort(func) —— 对数组进行原位（in-place）排序，然后返回它。</p><p>reverse() —— 原位（in-place）反转数组，然后返回它。</p><p>splitjoin —— 将字符串转换为数组并返回。</p><p>reducereduceRight(func, initial) —— 通过对每个元素调用 func 计算数组上的单个值，并在调用之间传递中间结果。</p><p>其他：</p><p>Array.isArray(arr) 检查 arr 是否是一个数组。</p><p>请注意，sort，reverse 和 splice 方法修改的是数组本身。<br>这些是最常用的方法，它们覆盖 99％ 的用例。但是还有其他几个：</p><p>arr.some(fn)arr.every(fn) 检查数组。</p><p>与 map 类似，对数组的每个元素调用函数 fn。如果任何所有结果为 true，则返回 true，否则返回 false。<br>这两个方法的行为类似于  和 &amp;&amp; 运算符：如果 fn 返回一个真值，arr.some() 立即返回 true 并停止迭代其余数组项；如果 fn 返回一个假值，arr.every() 立即返回 false 并停止对其余数组项的迭代。<br>我们可以使用 every 来比较数组：<br>function arraysEqual(arr1, arr2) {<br>  return arr1.length &#x3D;&#x3D;&#x3D; arr2.length &amp;&amp; arr1.every((value, index) &#x3D; value &#x3D;&#x3D;&#x3D; arr2[index]);<br>}</p><p>alert( arraysEqual([1, 2], [1, 2]));  true</p><p>arr.fill(value, start, end) —— 从索引 start 到 end，用重复的 value 填充数组。</p><p>arr.copyWithin(target, start, end) —— 将从位置 start 到 end 的所有元素复制到 自身 的 target 位置（覆盖现有元素）。</p><p>arr.flat(depth)arr.flatMap(fn) 从多维数组创建一个新的扁平数组。</p><p>Array.of(element0[, element1[, …[, elementN]]]) 基于可变数量的参数创建一个新的 Array 实例，而不需要考虑参数的数量或类型。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;数组知识点备忘&quot;&gt;&lt;a href=&quot;#数组知识点备忘&quot; class=&quot;headerlink&quot; title=&quot;数组知识点备忘&quot;&gt;&lt;/a&gt;数组知识点备忘&lt;/h2&gt;&lt;p&gt;数组方法备忘单：&lt;/p&gt;
-&lt;p&gt;添加删除元素：&lt;/p&gt;
-&lt;p&gt;push(…items) —— 向尾端</summary>
       
     
     
